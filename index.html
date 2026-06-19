@@ -1,112 +1,104 @@
 <!DOCTYPE html>
 <html lang="it">
-    <head>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="stile/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUCINE MINERVA 2026</title>
+    
+    <meta name="DC.Title" content="FUCINE MINERVA">
+    <meta name="DC.Creator" content="Francesca Brevini">
+    <meta name="DC.Subject" content="Musica, Arte contemporanea, Artigianato, Poesia, Festival, Toscana">
+    <meta name="DC.Description" content="Fucine Minerva 2026 ti aspetta">
+    <meta name="DC.Date" content="2026">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="html"> 
+    <meta name="DC.Identifier" content="TBD una volta che il sito sia caricato">
+    <meta name="DC.language" content="it">
+    <meta name="DC.Rights" content="Accesso libero creative commons">
 
-        <!--Set per visualizzazione dei caratteri-->
-        <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="stile/style.css">
-        <!--Area visibele all'utente, ridimensionamento in base al dispositivo-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FUCINE MINERVA 2026</title>
-        <!--Dublin Core metadati-->
-        <meta name="DC.Title" content="FUCINE MINERVA">
-        <meta name="DC.Creator" content="Francesca Brevini">
-        <meta name="DC.Subject" content="Musica, Arte contemporanea, Artigianato, Poesia, Festival, Toscana">
-        <meta name="DC.Description" content="Fucine Minerva 2026 ti aspetta">
-        <meta name="DC.Date" content="2026">
-        <meta name="DC.Type" content="Sito web">
-        <meta name="DC.Format" content="html"> 
-        <!--ricordare di inserire-->
-        <meta name="DC.Identifier" content="TBD una volta che il sito sia caricato">
-        <meta name="DC.language" content="it">
-        <meta name="DC.Rights" content="Accesso libero creative commons">
-    </head>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
-  <style>
-    body {
-      background: #000;
-      color: white;
-      font-family: Arial, sans-serif;
-      overflow-x: hidden;
-    }
+    <style>
+      body {
+        background: #000;
+        color: white;
+        font-family: Arial, sans-serif;
+        overflow-x: hidden;
+      }
 
-    .hero-bg {
-      background:
-        radial-gradient(circle at top left, rgba(54, 67, 14, 0.25), transparent 40%),
-        radial-gradient(circle at bottom right, rgba(16,185,129,0.2), transparent 40%),
-        #000;
-    }
+      .hero-bg {
+        background:
+          radial-gradient(circle at top left, rgba(54, 67, 14, 0.25), transparent 40%),
+          radial-gradient(circle at bottom right, rgba(16,185,129,0.2), transparent 40%),
+          #000;
+      }
 
-    .glow {
-      position: absolute;
-      width: 400px;
-      height: 400px;
-      border-radius: 9999px;
-      filter: blur(120px);
-      opacity: .2;
-      animation: pulse 6s infinite;
-    }
-
-    .glow-orange {
-      background: #FE5500;
-      top: 10%;
-      left: 10%;
-    }
-
-    .glow-green {
-      background: #D2C22D;
-      bottom: 10%;
-      right: 10%;
-      animation-delay: 2s;
-    }
-
-    @keyframes pulse {
-      0%, 100% {
-        transform: scale(1);
+      .glow {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        border-radius: 9999px;
+        filter: blur(120px);
         opacity: .2;
+        animation: pulse 6s infinite;
       }
-      50% {
-        transform: scale(1.2);
-        opacity: .35;
+
+      .glow-orange {
+        background: #FE5500;
+        top: 10%;
+        left: 10%;
       }
-    }
 
-    .section-title {
-      font-size: 4rem;
-      letter-spacing: -.04em;
-      text-align: center;
-      margin-bottom: 4rem;
-    }
+      .glow-green {
+        background: #D2C22D;
+        bottom: 10%;
+        right: 10%;
+        animation-delay: 2s;
+      }
 
-    /* CLASSE PER NASCONDERE LE SEZIONI NON ANCORA PRONTE */
-    .hidden-section {
-      display: none !important;
-    }
-  </style>
+      @keyframes pulse {
+        0%, 100% {
+          transform: scale(1);
+          opacity: .2;
+        }
+        50% {
+          transform: scale(1.2);
+          opacity: .35;
+        }
+      }
+
+      .section-title {
+        font-size: 4rem;
+        letter-spacing: -.04em;
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+
+      /* CLASSE PER NASCONDERE LE SEZIONI NON ANCORA PRONTE */
+      .hidden-section {
+        display: none !important;
+      }
+    </style>
 </head>
 
 <body>
 
-  <!-- HERO -->
   <section class="relative min-h-screen flex items-center justify-center hero-bg">
-
     <div class="glow glow-orange"></div>
     <div class="glow glow-green"></div>
 
     <div class="relative z-10 text-center px-4">
-     <h1 class="text-6xl md:text-9xl font-bold tracking-tighter text-white drop-shadow-[0_0_30px_rgba(187,248,33,0.4)]">
+      <h1 class="text-6xl md:text-9xl font-bold tracking-tighter text-white drop-shadow-[0_0_30px_rgba(187,248,33,0.4)]">
         FUCINE MINERVA
       </h1>
       <p class="mt-6 text-xl md:text-2xl tracking-[0.3em] text-gray-400">
         2026
       </p>
     </div>
-
   </section>
 
-  <!-- INFO E DATE -->
-      <section class="py-32 px-6 bg-zinc-950">
+  <section class="py-32 px-6 bg-zinc-950">
     <div class="max-w-7xl mx-auto">
       
       <div class="max-w-3xl mx-auto mb-20 text-center">
@@ -119,7 +111,6 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-        
         <div class="bg-gradient-to-br from-[#36430E] to-black rounded-xl p-12 flex flex-col justify-end min-h-[250px]">
           <h3 class="text-6xl font-bold tracking-tight mb-1 text-white">25</h3>
           <h4 class="mt-2 tracking-[0.3em] font-bold text-[#BBF821]">LUGLIO</h4>
@@ -134,97 +125,25 @@
 
         <div class="bg-gradient-to-br from-[#FE5500] to-black rounded-xl p-12 flex flex-col justify-end min-h-[250px]">
           <h3 class="text-3xl font-bold tracking-tight mb-1 text-white">TEMPIO DI MINERVA</h3>
-          <h4 class="mt-2 tracking-[0.1em] text-[#BBF821]">Loc. Torricchio, Palaia (PI)</h4>
         </div>
-
       </div>
+
     </div>
   </section>
 
-  <!-- LINE UP (Aggiungi 'hidden-section' dentro le virgolette di class se vuoi nasconderla) -->
-  <section class="py-32 px-6 hidden-section">
-    <div class="max-w-7xl mx-auto">
-      <h2 class="section-title">LINE UP</h2>
-
-      <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
-        <div>
-          <div class="aspect-square rounded-xl" style="background-color: #FE5500;"></div>
-          <p class="mt-5 text-sm font-bold text-[#BBF821]">MARCO SALVADORI</p>
-        </div>
-        <div>
-          <div class="aspect-square rounded-xl" style="background-color: #D2C22D;"></div>
-          <p class="mt-5 text-sm font-bold text-[#BBF821]">DIE LEUTE</p>
-        </div>
-        <div>
-          <div class="aspect-square bg-white rounded-xl"></div>
-          <p class="mt-5 text-sm font-bold text-[#BBF821]">FRENK MONTI</p>
-        </div>
-        <div>
-          <div class="aspect-square bg-white rounded-xl"></div>
-          <p class="mt-5 text-sm font-bold text-[#BBF821]">NICOLAS ZULLO</p>
-        </div>
-        <div>
-          <div class="aspect-square bg-white rounded-xl"></div>
-          <p class="mt-5 text-sm font-bold text-[#BBF821]">ELENA ROMANO</p>
-        </div>
-        <div>
-          <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center" style="background-image: url('img/benvenuti.png');"></div>
-          <p class="mt-5 text-sm font-bold text-[#BBF821]">BENVENUTI</p>
-        </div>
-        <div>
-          <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center" style="background-image: url('img/phede-paja.jpg');"></div>
-          <p class="mt-5 text-sm font-bold text-[#BBF821]">PHEDE & PAJA</p>
-        </div>
-        <div>
-          <div class="aspect-square bg-white rounded-xl"></div>
-          <p class="mt-5 text-sm font-bold text-[#BBF821]">WINGEDFISH</p>
-        </div>
-        <div>
-          <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center" style="background-image: url('img/benvenuti.png');"></div>
-          <p class="mt-5 text-sm font-bold text-[#BBF821]">ROCCO MARCHI</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BRAND COLORS (Sezione tecnica, utile per te, puoi nasconderla al pubblico usando la classe hidden-section) -->
-  <section class="py-32 px-6 hidden-section">
-    <div class="max-w-7xl mx-auto">
-      <h2 class="section-title">Brand Colors</h2>
-      <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
-        <div>
-          <div class="aspect-square bg-black border border-white/20 rounded-xl"></div>
-          <p class="mt-4 text-xs text-gray-500">#000000</p>
-        </div>
-        <div>
-          <div class="aspect-square rounded-xl" style="background-color: #36430E;"></div>
-          <p class="mt-4 text-xs text-gray-500">#36430E</p>
-        </div>
-        <div>
-          <div class="aspect-square rounded-xl" style="background-color: #FE5500;"></div>
-          <p class="mt-4 text-xs text-gray-500">#FE5500</p>
-        </div>
-        <div>
-          <div class="aspect-square rounded-xl" style="background-color: #BBF821;"></div>
-          <p class="mt-4 text-xs text-gray-500">#BBF821</p>
-        </div>
-        <div>
-          <div class="aspect-square bg-white rounded-xl"></div>
-          <p class="mt-4 text-xs text-gray-500">#FFFFFF</p>
-        </div>
-      </div>
-    </div>
-  </section>
   <section class="flex flex-col md:flex-row">
-
-   <div class="flex-1 py-24 px-6 text-center flex flex-col justify-center items-center" style="background: #FE5500;">
+    <div class="flex-1 py-24 px-6 text-center flex flex-col justify-center items-center" style="background: #FE5500;">
       <h2 class="text-4xl md:text-6xl font-bold mb-6 text-[#BBF821] tracking-tight uppercase">
         Banchetti
       </h2>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDHVscu7cIFfIkyIYRUpvn0k6hFOg-Y94wWrzrOdH59Drx7A/viewform" target="_blank" class="bg-black hover:bg-zinc-900 text-[#BBF821] font-bold py-4 px-8 rounded-full text-sm md:text-base tracking-wider transition duration-300 shadow-lg">
+      
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDHVscu7cIFfIkyIYRUpvn0k6hFOg-Y94wWrzrOdH59Drx7A/viewform" 
+         target="_blank" 
+         class="inline-block bg-black hover:bg-zinc-900 text-[#BBF821] font-bold py-4 px-8 rounded-full text-sm md:text-base tracking-wider transition duration-300 shadow-lg no-underline text-center">
         COMPILA IL FORM PER PORTARE IL TUO BANCHETTO!
       </a>
     </div> 
+
     <div class="flex-1 py-24 px-6 text-center flex flex-col justify-center items-center hidden-section" style="background: #36430E;">
       <h2 class="text-4xl md:text-6xl font-bold mb-6 text-[#BBF821] tracking-tight uppercase">
         Volontari
@@ -234,6 +153,8 @@
       </button>
     </div>
   </section>
+</body>
+
 
   <!-- FOOTER -->
   <footer class="py-20 border-t border-white/10 text-center bg-black">
@@ -241,5 +162,4 @@
     <p class="mt-3 text-xs text-gray-700 tracking-wider">NEWS AND MORE</p>
   </footer>
 
-</body>
 </html>
