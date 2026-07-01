@@ -84,30 +84,46 @@
     justify-content:center;
     align-items:center;
     gap:22px;
-}
+    }
 
-.footer-social a{
+    .footer-social a{
     color:#9ca3af;
     transition:.25s;
-}
+    } 
 
-.footer-social a:hover{
+    .footer-social a:hover{
     color:#ffffff;
-}
+    }
 
-.footer-social svg{
+    .footer-social svg{
     display:block;
     width:24px;
     height:24px;
     fill:currentColor;
-}
-      
+    }
+    .logo-section {
+    background: #000;
+    padding: 40px 20px;
+    } 
+
+    .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    }
+
+    .logo-container img {
+    max-height: 70px;
+    width: auto;
+     }  
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
 
-  <section class="relative min-h-screen flex items-center justify-center hero-bg">
+   <section class="relative min-h-screen flex items-center justify-center hero-bg">
     <div class="glow glow-orange"></div>
     <div class="glow glow-green"></div>
 
@@ -150,10 +166,112 @@
           <h3 class="text-3xl font-bold tracking-tight mb-1 text-white">TEMPIO DI MINERVA</h3>
         </div>
       </div>
-
     </div>
   </section>
+     <!-- LINE UP (Aggiungi 'hidden-section' dentro le virgolette di class se vuoi nasconderla) -->
+  <section class="py-32 px-6 text-center">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-4xl md:text-6xl font-bold mb-6 text-[#BBF821] tracking-tight uppercase">LINE UP</h2>
 
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+        <a href="marco-salvadori.html" class="block">
+        <div>
+          <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center" style="background-image: url('img/io-guardo-il-dito.jpg');"></div>
+          <p class="mt-5 text-sm font-bold text-[#BBF821]">MARCO SALVADORI</p>
+        </div>
+        </a>
+        <a href="DIE-LEUTE.html" class="block">
+        <div>
+          <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center" style="background-image: url('img/die-leute.png');"></div>
+          <p class="mt-5 text-sm font-bold text-[#BBF821]">DIE LEUTE</p>
+        </div>
+        </a>
+        <a href="frenk-monti.html" class="block">
+        <div>
+          <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center" style="background-image: url('img/frenk-monti.jpg');"></div>
+          <p  class="mt-5 text-sm font-bold text-[#BBF821]">FRENK MONTI</p>
+        </div>
+        </a>
+        <a href="nicolas-zullo.html" class="block">
+        <div>
+          <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center" style="background-image: url('img/nicolas-zullo.jpg');"></div>
+          <p class="mt-5 text-sm font-bold text-[#BBF821]">NICOLAS ZULLO</p>
+        </div>
+        </a>
+        <a href="ELENA-ROMANO.html" class="block">
+        <div>
+          <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center" style="background-image: url('img/elena-romano.jpg');"></div>
+          <p class="mt-5 text-sm font-bold text-[#BBF821]">ELENA ROMANO</p>
+        </div>
+      </a>
+        <a href="BENVENUTI.html" class="block">
+  
+         <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center"
+          style="background-image: url('img/benvenuti.png');">
+         </div>
+
+        <p class="mt-5 text-sm font-bold text-[#BBF821]">BENVENUTI </p>
+        </a>
+        <a href="PHEDE-PAJA.html" class="block">
+        <div>
+          <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center" style="background-image: url('img/phede-paja.jpg');"></div>
+          <p class="mt-5 text-sm font-bold text-[#BBF821]">PHEDE & PAJA</p>
+        </div>
+      </a>
+      <a href="WINGEDFISH.html" class="block">
+        <div>
+          <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center" style="background-image: url('img/Wingedfish.jpg');"></div>
+          <p class="mt-5 text-sm font-bold text-[#BBF821]">WINGEDFISH</p>
+        </div>
+      </a>
+      <a href="ROCCO-MARCHI.html" class="block">
+        <div>
+          <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center" style="background-image: url('img/rocco-marchi.png');"></div>
+          <p class="mt-5 text-sm font-bold text-[#BBF821]">ROCCO MARCHI</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="esposizioni" class="py-32 px-8 hero-bg relative overflow-hidden">
+
+  <div class="glow glow-orange"></div>
+  <div class="glow glow-green"></div>
+
+  <div class="max-w-6xl mx-auto relative z-10">
+
+    <h2 class="text-4xl md:text-6xl font-bold mb-6 text-[#BBF821] tracking-tight uppercase">ESPOSIZIONI</h2>
+
+    <div class="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+
+      <a href="brevini.html" class="block group">
+
+        <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center transition duration-300 group-hover:scale-105"
+             style="background-image: url('img/FRANCESCA.png');">
+        </div>
+
+        <p class="mt-5 text-sm font-bold text-[#BBF821] text-center group-hover:text-white transition">
+          FRANCESCA BREVINI
+        </p>
+
+      </a>
+
+      <a href="guerrieri.html" class="block group">
+
+        <div class="aspect-square rounded-xl bg-contain bg-no-repeat bg-center transition duration-300 group-hover:scale-105"
+             style="background-image: url('img/guerrieri.jpg');">
+        </div>
+
+        <p class="mt-5 text-sm font-bold text-[#BBF821] text-center group-hover:text-white transition">
+          GIACOMO GUERRIERI
+        </p>
+
+      </a>
+
+    </div>
+
+  </div>
+
+  </section>
   <section class="flex flex-col md:flex-row">
     <div class="flex-1 py-24 px-6 text-center flex flex-col justify-center items-center" style="background: #FE5500;">
       <h2 class="text-4xl md:text-6xl font-bold mb-6 text-[#BBF821] tracking-tight uppercase">
@@ -196,7 +314,6 @@
   </div>
 
   <div class="footer-social mt-6">
-
     <a href="https://www.facebook.com/profile.php?id=61591154314982"
        target="_blank"
        aria-label="Facebook">
@@ -208,29 +325,27 @@
            viewBox="0 0 16 16">
         <path d="M16 8A8 8 0 1 0 6.75 15.88v-5.56H4.72V8h2.03V6.23c0-2 1.19-3.1 3.01-3.1.87 0 1.78.15 1.78.15v1.96h-1c-.98 0-1.29.61-1.29 1.24V8h2.2l-.35 2.32H9.25v5.56A8 8 0 0 0 16 8"/>
       </svg>
-
     </a>
-
-    <a href="https://www.instagram.com/fucineminervafestival/"
-       target="_blank"
-       aria-label="Instagram">
-
-      <svg xmlns="http://www.w3.org/2000/svg"
-           width="24"
-           height="24"
-           fill="currentColor"
-           viewBox="0 0 16 16">
-        <path d="M8 0C5.83 0 5.56.01 4.7.05c-.85.04-1.43.17-1.94.37A3.9 3.9 0 0 0 1.34 1.34 3.9 3.9 0 0 0 .42 2.76c-.2.51-.33 1.09-.37 1.94C.01 5.56 0 5.83 0 8s.01 2.44.05 3.3c.04.85.17 1.43.37 1.94.2.52.46.96.92 1.42.46.46.9.72 1.42.92.51.2 1.09.33 1.94.37.86.04 1.13.05 3.3.05s2.44-.01 3.3-.05c.85-.04 1.43-.17 1.94-.37a3.9 3.9 0 0 0 1.42-.92c.46-.46.72-.9.92-1.42.2-.51.33-1.09.37-1.94.04-.86.05-1.13.05-3.3s-.01-2.44-.05-3.3c-.04-.85-.17-1.43-.37-1.94a3.9 3.9 0 0 0-.92-1.42A3.9 3.9 0 0 0 13.24.42c-.51-.2-1.09-.33-1.94-.37C10.44.01 10.17 0 8 0z"/>
-      </svg>
-
+    <a href="https://www.instagram.com/fucineminervafestival/" target="_blank" aria-label="Instagram">
+     <svg xmlns="http://www.w3.org/2000/svg"
+     width="24"
+     height="24"
+     fill="currentColor"
+     viewBox="0 0 16 16">
+     <path d="M4.5 0A4.5 4.5 0 0 0 0 4.5v7A4.5 4.5 0 0 0 4.5 16h7a4.5 4.5 0 0 0 4.5-4.5v-7A4.5 4.5 0 0 0 11.5 0zm0 1h7A3.5 3.5 0 0 1 15 4.5v7a3.5 3.5 0 0 1-3.5 3.5h-7A3.5 3.5 0 0 1 1 11.5v-7A3.5 3.5 0 0 1 4.5 1M8 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8m0 1a3 3 0 1 1 0 6 3 3 0 0 1 0-6m4.75-.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"/>
+     </svg>
     </a>
-
   </div>
-
-  <p class="mt-6 text-xs text-gray-500 tracking-wider">
+   <p class="mt-6 text-xs text-gray-500 tracking-wider">
     NEWS AND MORE
-  </p>
+   </p>
+   <section class="logo-section">
+    <div class="logo-container">
+        <img src="img/LOGO-verde.png" alt="Logo 1">
+        <img src="img/CDB.png" alt="Logo 2" style="background:#fff;">
+        <img src="img/ODV.png" alt="Logo 3" style="background:#fff;">
+    </div>
+   </section>
 
-</footer>
-
+ </footer>
 </html>
